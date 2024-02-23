@@ -390,6 +390,7 @@ thread_set_nice (int new_nice)
 int
 thread_get_nice (void)
 {
+  /*retornar nice*/
   return thread_current()->nice;
 }
 
